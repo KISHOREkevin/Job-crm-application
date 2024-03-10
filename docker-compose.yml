@@ -1,0 +1,24 @@
+version: '3.7'
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    image: job-app-backend
+    container_name: job-backend
+    command: npm start
+    ports:
+      - "3000:3000"
+    env_file: ./server/.env
+  
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    image: job-app-frontend
+    container_name: job-frontend
+    command: npm run dev
+    ports:
+      - "5173:5173"
+    env_file: ./client/.env
