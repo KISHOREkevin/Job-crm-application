@@ -73,4 +73,4 @@ https://github.com/KISHOREkevin/Job-crm-application/assets/98908744/5ba8040a-f82
 * then run the command `docker-compose up`.
 * then go to `http://localhost:5173/` and access the application.
 
-**Note : In computer , company can be manages as well as users , but in mobiles users management only be done in this project,  company management not allowed in this project**
+**Note : In computer , company can be managed as well as users , but in mobiles users management only be done in this project,  company management not allowed in this project**
