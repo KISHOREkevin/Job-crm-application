@@ -58,17 +58,20 @@ https://github.com/KISHOREkevin/Job-crm-application/assets/98908744/5ba8040a-f82
 * `cd Job-crm-application`
 * inside server folder and client folder create `.env` file
 * in `server folder` ,enter the following code in the `.env` file :
-     * `MONGO_URL=Your-mongodb-url`
-     * `PORT=Your-port-number`
-     * `SALT_ROUNDS=10`
-     * `GMAIL_ACCOUNT=your-mail-id`
-     * `GMAIL_ACCOUNT_PASSWORD=your-mail-password` (Generated from google developer tool)
-     * `CLOUD_NAME=Your-cloudinary-cloud-name`
-     * `CLOUD_API_KEY=Your-cloudinary-api-key`
-     * `CLOUD_API_SECRET=Your-cloudinary-api-secret`
-       
+     ```
+     MONGO_URL=Your-mongodb-url
+     PORT=Your-port-number
+     SALT_ROUNDS=10
+     GMAIL_ACCOUNT=your-mail-id
+     GMAIL_ACCOUNT_PASSWORD=your-mail-password (Generated from google developer tool)
+     CLOUD_NAME=Your-cloudinary-cloud-name
+     CLOUD_API_KEY=Your-cloudinary-api-key
+     CLOUD_API_SECRET=Your-cloudinary-api-secret
+     ```       
 * In `client folder` , enter the following code in the `.env` file:
-     * `VITE_BACKEND_URL=http://localhost:3000/api`
+   ```
+  VITE_BACKEND_URL=http://localhost:3000/api
+   ```
 * get backward where the `docker-compose.yml` file is located.
 * then run the command `docker-compose up`.
 * then go to `http://localhost:5173/` and access the application.
